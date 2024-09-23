@@ -1,0 +1,92 @@
+a{
+    text-decoration: none;
+    color: #5c5c5c;
+    padding: 20px;
+    transition: .2s;
+}
+a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+#menu{
+   margin-top: 20px;
+}
+#menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+}
+
+#menu ul li {
+    font-size: 18px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+
+header {
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; /* Centraliza o menu */
+    align-items: center;
+    position: relative; /* Necessário para o botão se alinhar com position */
+    padding: 10px; /* Adiciona um pequeno padding */
+}
+
+header button {
+    background-color: #00FF00;
+    padding: 10px 40px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    right: 20px; 
+    display: flex;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+header button:hover{
+    box-shadow: 1px 1px 15px #00ff08;
+}
+#container{
+    
+    height: 600px;
+}
+#textos{
+    margin-left: 50px;
+
+    width: 800px;
+    height: 500px;
+    color: white;
+} 
+#textos h1{
+    text-transform: uppercase;
+}
+#textos p{
+    
+}
+#textos button{
+    background-color: #00FF00;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    right: 20px; 
+    width: 210px;
+    margin-top: 20px;
+    height: 47px;
+    border-radius: 20px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+#textos button:hover{
+    box-shadow: 1px 1px 15px #00ff08;
+}
+p{
+    color: white;
+}
